@@ -295,6 +295,7 @@ a {
 
 .wrapper-services {
     padding-top: 92px;
+    padding-bottom: 100px;
     background: #FAFAFA;
 }
 
@@ -374,3 +375,230 @@ a {
     line-height: normal;
 }
 
+.wrapper-what-we-do {
+    margin-bottom: 100px;
+}
+
+.what-we-do {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.what-we-do::before {
+    content: url(img/dribbble_illustration_v3\ 1.png);
+    position: absolute;
+    left: -316px;
+}
+
+.what-we-do-head {
+    padding-bottom: 19px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.what-we-do-content {
+    width: 557px;
+    padding-top: 107px;
+}
+
+.what-we-do-text {
+    padding-bottom: 80px;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.what-we-do-list-item-img {
+    margin-right: 29px;
+}
+
+
+.what-we-do-list-item {
+    display: flex;
+    padding-bottom: 56px;
+}
+
+.what-we-do-list-item-text {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.what-we-do-list-item-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.what-we-do-list-item-head {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+
+.funfacts-list {
+    width: 1170px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #EEE;
+}
+
+.funfacts-list img {
+    height: 15px;
+}
+
+.funfact-list-item {
+    text-align: center;
+}
+
+.funfact-list-item:first-child {
+    padding-left: 76px;
+}
+
+.funfact-list-item:last-child {
+    padding-right: 66px;
+}
+
+.funfact-list-item-number {
+    color: #666;
+    font-family: Gilroy-Bold;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 105px */
+}
+
+.funfact-list-item-text {
+    color: #666;
+    font-family: Gilroy-SemiBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    }
+
+.mailbox {
+ display: flex;
+}
+
+.mailbox-img {
+    margin-top: 42px;
+}
+
+.mailbox-content {
+    padding-top: 238px;
+}
+
+.mailbox-head {
+    width: 563px;
+    margin-bottom: 3px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 67.5px */
+}
+
+.mailbox-text {
+    padding-bottom: 55px;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.mailbox-input-field {
+    padding: 13px 120px;
+    border-radius: 50px;
+    background: #EEE;
+    border: none;
+}
+
+.mailbox-input-field::placeholder {
+    text-align: center;
+    color: #666;
+    font-family: Gilroy-Medium;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+}
+
+.mailbox-input-btn {
+    padding: 15px 48px 15px 49px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.25);
+    border: none;
+    color: #FFFDFD;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 19.5px */
+}
+
+.wrapper-plans {
+    padding-top: 87px;
+    background: #FAFAFA;
+}
+
+.plans-head {
+    text-align: center;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.plans-text {
+    padding-top: 3px;
+    padding-bottom: 56px;
+    text-align: center;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.plans-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plan-list-item {
+    background: #FFF;
+}
+
+.plan-list-item-class {
+    padding-top: 63px;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
