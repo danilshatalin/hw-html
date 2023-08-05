@@ -66,3 +66,130 @@ textarea,
 select {
   font: inherit;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrapper {
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.wrapper-header {
+    margin-top: 40px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo-link {
+    width: 448px;
+}
+
+.header-nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-list-item {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 35px;
+}
+
+.header-nav-list-item button {
+    padding: 13px 27px;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 30px;
+    background: #F25822;
+    border: solid;
+}
+
+.header-content {
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 200px;
+}
+
+.header-content-title {
+    width: 583px;
+    padding-top: 61px;
+}
+
+.header-img {
+    width: 610px;
+    height: 372px;
+}
+
+.header-content-title-head {
+    margin-bottom: 17px;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-content-title p {
+    padding-bottom: 37px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-btns {
+    display: flex;
+    align-items: center;
+}
+
+.header-btns img {
+    margin-right: 15px;
+}
+
+.header-btns a {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-partners-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.start-now {
+    margin-right: 27px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    padding: 13px 36px;
+    border: solid;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
