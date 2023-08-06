@@ -120,6 +120,7 @@ a {
     border-radius: 30px;
     background: #F25822;
     border: solid;
+    cursor: pointer;
 }
 
 .header-content {
@@ -149,6 +150,10 @@ a {
 .header-img {
     width: 610px;
     height: 372px;
+}
+
+.header-nav-logo {
+    cursor: pointer;
 }
 
 .header-content-title-head {
@@ -186,6 +191,7 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    cursor: pointer;
 }
 
 .header-partners-list {
@@ -206,6 +212,7 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    cursor: pointer;
 }
 
 .advantages-head {
@@ -249,6 +256,7 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    cursor: pointer;
 }
 
 .advantages-list {
@@ -373,6 +381,7 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    cursor: pointer;
 }
 
 .wrapper-what-we-do {
@@ -554,6 +563,7 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 19.5px */
+    cursor: pointer;
 }
 
 .wrapper-plans {
@@ -584,21 +594,104 @@ a {
 }
 
 .plans-list {
+    padding-bottom: 130px;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
 .plan-list-item {
+    width: 370px;
+    height: 514px;
     background: #FFF;
 }
 
 .plan-list-item-class {
     padding-top: 63px;
+    padding-bottom: 6px;
     color: #000;
     font-family: Gilroy-Medium;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 36px */
+}
+
+.plans-list li:nth-child(2) {
+    box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.07);
+}
+
+.plan-list-item-head {
+    position: relative;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.plan-list-item-head::before {
+    content: "$";
+    position: absolute;
+    top: 18px;
+    left: 79px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+
+.plan-list-item-btn-middle {
+    margin-top: 27px;
+    padding: 9px 64px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 10px 0px rgba(242, 88, 34, 0.25);
+    border: none;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 250%; /* 32.5px */
+    cursor: pointer;
+    color: #FFF;
+
+}
+
+.plan-list-item-list {
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 250%; /* 40px */
+}
+
+.plan-list-item-btn {
+    margin-top: 27px;
+    padding: 9px 64px;
+    border-radius: 50px;
+    background: rgba(242, 88, 34, 0.25);
+    border: none;
+    color: #F3602D;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 250%; /* 32.5px */
+    cursor: pointer;
+}
+
+.numb {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 105px */
 }
